@@ -1,6 +1,6 @@
 <?php 
 	$sno=0;
-	include "dbcon.php"; //include is used to link php file to php file
+	include "dbcon.php";
 	$result=mysqli_query($con,"select count(sno) from notice_tb");
 	while($row=mysqli_fetch_array($result))
 	{
@@ -25,7 +25,7 @@
 				<span class="icon-bar"> </span>
 				<span class="icon-bar"> </span>
 			</button>
-			<a class="navbar-brand" href="#" >Optimus Infotech</a>
+			<a class="navbar-brand" href="#" >Company Name</a>
 		</div>
 		
 		<div class="collapse navbar-collapse" id="myNavbar">
